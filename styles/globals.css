@@ -15,12 +15,25 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   html {
     color-scheme: dark;
   }
   body {
     color: white;
-    background: black;
+    
   }
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+  padding: 0;
+}
+nav ul li{
+  background-color: red;
+  padding: 5px 10px;
+  
 }
